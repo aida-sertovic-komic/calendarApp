@@ -1,5 +1,5 @@
 <!-- <p-calendar [(ngModel)]="value" appendTo="body" ></p-calendar> -->
 
 <div class="calendar">
-    <p-calendar  [(ngModel)]="value" [inline]="true"></p-calendar>
+    <p-calendar  [(ngModel)]="value" [inline]="true" (click)="selectedDate(value)"></p-calendar>
 </div>
